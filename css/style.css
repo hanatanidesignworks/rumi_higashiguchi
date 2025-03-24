@@ -457,3 +457,93 @@
         width: 300px;
     }
 }
+
+/*SOLUTION*/
+.solution{
+    width: 100%;
+    height: 2209px;
+    max-width: 768px;
+    background-color: #FCE8CA;
+    display: grid;
+    place-items: center;
+}
+
+.solution_container{
+    width: 350px;
+    height: 2209px;
+}
+
+    .solution_heading_container{
+        width: 340px;
+        height: 100px;
+        background-color: #fcfcfc;
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+
+        .solution_heading_container h3{
+            font-family: "Noto Sans JP", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 22px;
+            color: #4CAF50;
+            display: flex;
+        }
+
+            .tanoshii{
+                display: block;
+                font-family: "Hachi Maru Pop", cursive;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 42px;
+                color: #FF8C00;
+                text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+                transform: rotate(6deg);
+            }
+
+            .gendouryoku{
+               margin-top: 20px;
+            }
+
+            .back_gendouryoku{
+                display: inline;
+                background-color: #FFE6E9;
+            }
+
+            .gungun{
+                margin-top: 20px;
+                width: 250px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .line_gungun{
+                text-decoration: underline;
+                text-decoration-color: #FFEC47;
+                text-decoration-thickness: 5px;
+            }
+
+    .solution_contents_container{
+        width: 100%;
+        height: 700px;
+    }
+
+        .solution_contents_image_container, .solution_contents_text_container{
+            width: 100%;
+            height: 350px;
+        }
+
+            .solution_contents_image_container img{
+                width: 350px;
+                height: 350px;
+            }
+
+            .solution_contents_text_container p{
+                font-family: "Kosugi Maru", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 16px;
+                line-height: 2rem;
+                margin-top: 20px;
+            }
