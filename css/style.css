@@ -461,7 +461,7 @@
 /*SOLUTION*/
 .solution{
     width: 100%;
-    height: 2209px;
+    height: 2200px;
     max-width: 768px;
     background-color: #FCE8CA;
     display: grid;
@@ -470,9 +470,10 @@
 
 .solution_container{
     width: 350px;
-    height: 2209px;
+    height: 2200px;
 }
 
+    /*HEADING*/
     .solution_heading_container{
         width: 340px;
         height: 100px;
@@ -524,6 +525,26 @@
                 text-decoration-thickness: 5px;
             }
 
+/*MOBILE SMALL*/
+@media(max-width: 350px){
+    .tanoshii{
+        font-size: 36px;
+    }
+
+    .solution_heading_container h3{
+        font-size: 20px;
+    }
+
+    .solution_heading_container{
+        width: 290px;
+    }
+
+    .solution_container{
+        width: 300px;
+    }
+}
+
+    /*CONTENTS*/
     .solution_contents_container{
         width: 100%;
         height: 700px;
@@ -547,3 +568,98 @@
                 line-height: 2rem;
                 margin-top: 20px;
             }
+
+    /*HEADING UNDER*/
+    .solution_heading_under{
+        width: 350px;
+        padding: 0;
+        padding-top: 10px;
+        height: 90px;
+    }
+
+        .solution_heading_under .konokyoushitsude{
+            font-size: 28px;
+            color: #FF8C00;
+            width: 350px;
+            text-align: center;
+        }
+
+        h4{
+            font-family: "Kosugi Maru", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+            color: #4CAF50;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+            .manabinododai_underline{
+                text-decoration: underline;
+                text-decoration-color: #FFEC47;
+                text-decoration-thickness: 5px;
+            }
+
+    /*CONTENTS UNDER*/
+    .solution_contents_under{
+        height: 1260px;
+    }
+
+        .solution_contents_inner_container{
+            width: 100%;
+            height: 630px;
+        }
+
+            .solution_contents_inner_image_container{
+                width: 100%;
+                height: 350px;
+            }
+
+                .solution_contents_inner_image_container img{
+                    width: 350px;
+                    height: 350px;
+                }
+
+            .solution_contents_inner_text_container{
+                width: 100%;
+                height: 280px;
+            }
+
+                .solution_contents_inner_text_container p{
+                    font-family: "Kosugi Maru", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 2rem;
+                    margin-top: 20px;
+                }
+            
+            .solution_contents_inner_text_under{
+                height: 630px;
+            }
+
+/*MOBILE SMALL*/
+@media(max-width: 350px){
+    .solution_contents_inner_image_container img{
+        width: 300px;
+    }
+
+    .solution_heading_container h4{
+        font-size: 18px;
+    }
+
+    .solution_heading_container .konokyoushitsude{
+        width: 300px;
+        font-size: 24px;
+    }
+
+    .solution_heading_under{
+        width: 300px;
+    }
+
+    .solution_contents_image_container img{
+        width: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
