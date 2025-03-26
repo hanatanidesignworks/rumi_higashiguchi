@@ -760,6 +760,200 @@
     }
 }
 
+/*COMPAR*/
+.compare{
+    width: 100%;
+    height: 3090px;
+    display: grid;
+    place-items: center;
+}
+
+.compare_container{
+    width: 100%;
+    max-width: 768px;
+    height: 3090px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcfcfc;
+}
+
+/*HEADING*/
+.compare_heading_container{
+    width: 100%;
+    height: 160px;
+    background-color: #DC6B9A;
+    display: grid;
+    place-items: center;
+}
+
+    .compare_heading_text_container{
+        width: 350px;
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        .compare_heading_text_container h2{
+            font-family: "Kosugi Maru", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 28px;
+            color: #fcfcfc;
+        }
+
+            .compare_heading_text_upper, .compare_heading_text_middle, .compare_heading_text_under{
+                display: block;
+                text-align: center;
+            }
+
+            .compare_heading_text_middle{
+                color: #f00;
+            }
+
+/*MOBILE SMALL*/
+@media(max-width: 350px){
+    .compare_heading_text_container h2{
+        font-size: 24px;
+    }
+
+    .compare_heading_text_container{
+        width: 300px;
+    }
+            }
+
+/*UPPER*/
+.compare_contents_container{
+    width: 350px;
+    height: 1900px;
+    background-color: #fff;
+}
+
+    .compare_contents_inner_container{
+        width: 100%;
+        height: 950px;
+    }
+
+        .compare_contents_inner_image_container{
+            width: 350px;
+            height: 350px;
+            background-image: url(../img/compare_image_w350_h350.jpg);
+            background-size: cover;
+            background-position: center;
+            margin-top: 20px;
+        }
+
+            .compare_contents_inner_image_container .katsudouzisseki{
+                font-family: "Noto Sans JP", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 18px;
+                text-align: center;
+                color: #fcfcfc;
+                padding-top: 20px;
+            }
+
+        .compare_contents_inner_text_container{
+            width: 350px;
+            height: 560px;
+            margin-top: 20px;
+        }
+
+        .compare_contents_inner_text_right{
+            height: 950px;
+        }
+
+            .compare_contents_inner_text_container p{
+                font-family: "Noto Sans JP", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 16px;
+                line-height: 1.4rem;
+            }
+
+            .compare_contents_inner_text_container p:not(:first-child){
+                margin-top: 20px;
+            }
+
+/*UNDER*/
+.compare_contents_under{
+    width: 100%;
+    height: 1140px;
+    background-color: #FFE6E9;
+}
+
+    .compare_contents_heading_container{
+        width: 100%;
+        height: 100px;
+        display: grid;
+        place-items: center;
+    }
+
+        .compare_contents_heading_container h3{
+            font-family: "Kosugi Maru", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 24px;
+            display: flex;
+            flex-direction: column;
+            text-align: cneter;
+            line-height: 2rem;
+            text-decoration: underline;
+            text-decoration-color: #FFEC47;
+            text-decoration-thickness: 5px;
+        }
+
+    .compare_contents_inner_under{
+        height: 1040px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .compare_contents_inner_text_underLeft, .compare_contents_inner_text_underRight{
+            height: 520px;
+            margin: 0;
+        }
+
+            .compare_contents_inner_text_image{
+                width: 350px;
+                height: 350px;
+                background-image: url(../img/compare_under_w350_h350.jpg);
+                background-size: cover;
+                background-position: center;
+                margin-top: 10px;
+            }
+
+/*MOBILE SMALL*/
+@media(max-width: 350px){
+    .compare_contents_inner_text_image{
+        width: 300px;
+    }
+
+    .compare_contents_inner_text_container p{
+        line-height: 1.3rem;
+    }
+
+    .compare_contents_inner_text_container{
+        width: 300px;
+    }
+
+    .compare_contents_inner_image_container{
+        width: 300px;
+    }
+
+    .compare_contents_heading_container h3{
+        font-size: 18px;
+    }
+
+    .compare_contents_container{
+        width: 300px;
+    }
+}
+
 /*CTA*/
 .cta{
     width: 100%;
